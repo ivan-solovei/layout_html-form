@@ -13,8 +13,7 @@
 
     <form class="form" onsubmit="onSubmit()">
 
-      <script type="text/javascript" src="./main.js">
-      </script>
+      <script type="text/javascript" src="./main.js"></script>
 
       <fieldset class="first-block" aria-autocomplete="none">
         <legend class="opo">Personal information</legend>
@@ -28,7 +27,7 @@
 
         <div class="x">
           <label for="box-n">
-              Name:
+            Name:
           </label>
           <input type="text" id="box-n">
         </div>
@@ -42,17 +41,19 @@
             value="12"
             id="box-h"
             min="12"
-            max="100">
+            max="100"
+          >
         </div>
 
         <div class="x">
           <label for="box-f">
-    Full date of birth:
+            Full date of birth:
           </label>
           <input
             type="date"
             value="дд.мм.рррр"
-            id="box-f">
+            id="box-f"
+          >
         </div>
 
         <div class="y">
@@ -68,7 +69,7 @@
         <legend>Registration</legend>
         <div class="x">
           <label for="box-e">
-    E-mail:
+            E-mail:
           </label>
           <input type="email"
     id="box-e"
@@ -80,11 +81,13 @@
           <label for="box-p">
     Password:
           </label>
-          <input type="password"
-   id="box-p"
-   minlength="6"
-   maxlength="12"
-   required>
+          <input
+            type="password"
+            id="box-p"
+            minlength="6"
+            maxlength="12"
+            required
+          >
         </div>
       </fieldset>
 
@@ -93,39 +96,41 @@
 
         <div class="x">
           <label for="box-cats">
-    Do you love cats?
+            Do you love cats?
           </label>
           <input type="radio"
-  name="cats"
-  id="box-cats">
-  Yes
+            name="cats"
+            id="box-cats"
+          >Yes
           <input type="radio"
-  name="cats"
-  id="box-cat">
-  No
+            name="cats"
+            id="box-cat"
+          >No
         </div>
 
         <div class="x">
           <label for="box-color">
-    What is your favorite color?
+            What is your favorite color?
           </label>
           <input type="color" id="box-color">
         </div>
 
         <div class="x">
           <label for="box-time">
-What time do you go to bed?
+            What time do you go to bed?
           </label>
           <input type="time" id="box-time">
         </div>
 
         <div class="x">
           <label for="box-brand">
-What are your favorite brand of cars?
+            What are your favorite brand of cars?
           </label>
-          <select name=""
-    id="box-brand"
-      multiple>
+          <select
+            name=""
+            id="box-brand"
+            multiple
+          >
             <option value="">BMW</option>
             <option value="">Audi</option>
             <option value="">Lada</option>
@@ -134,12 +139,15 @@ What are your favorite brand of cars?
 
         <div class="y">
           <label for="box-range">
-How do you rate our work?
+            How do you rate our work?
           </label>
-          <input type="range"
-         id="box-range" value="0">
+          <input
+            type="range"
+            id="box-range"
+            value="0"
+          >
         </div>
-</div>
+    </div>
       </fieldset>
 
       <fieldset class="fourth-block" aria-autocomplete="none">
@@ -147,15 +155,14 @@ How do you rate our work?
 
         <div class="x">
           <label for="u">
-Comments:
-            <textarea rows="2" id="u">
-            </textarea>
+            Comments:
+            <textarea rows="2" id="u"></textarea>
           </label>
         </div>
 
         <div class="y">
           <label for="box-rec">
-   Would you recommend us?
+            Would you recommend us?
           </label>
           <select id="box-rec">
             <option value="">yes</option>
@@ -165,7 +172,7 @@ Comments:
       </fieldset>
 
       <button type="submit">
-Submit
+        Submit
       </button>
     </form>
   </body>
